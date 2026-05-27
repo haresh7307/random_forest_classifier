@@ -6,7 +6,7 @@ import pandas as pd
 import streamlit as st
 
 
-MODEL_PATH = "ticket_model_small.pkl"
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "ticket_model_small.pkl")
 
 
 @st.cache_resource
