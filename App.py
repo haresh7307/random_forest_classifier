@@ -6,7 +6,7 @@ import pandas as pd
 import streamlit as st
 
 
-MODEL_PATH = "rf_ticket_model.pkl"
+MODEL_PATH = "ticket_model_small.pkl"
 
 
 @st.cache_resource
